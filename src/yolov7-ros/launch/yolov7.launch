@@ -11,7 +11,7 @@
         <!-- topic name for the detection output -->
         <param name="out_topic" type="str" value="yolov7" />
         <!-- confidence threshold -->
-        <param name="conf_thresh" type="double" value="0.9" />
+        <param name="conf_thresh" type="double" value="0.7" />
         <!-- intersection over union threshold -->
         <param name="iou_thresh" type="double" value="0.1" />
         <!-- queue size for publishing -->
@@ -22,6 +22,6 @@
         <!-- flag whether to also publish image with the visualized detections -->
         <param name="visualize" type="bool" value="true" />
         <!-- 'cuda' or 'cpu' -->
-        <param name="device" type="str" value="cuda" />
+        <param name="device" type="str" value="cpu" />
     </node>
 </launch>
