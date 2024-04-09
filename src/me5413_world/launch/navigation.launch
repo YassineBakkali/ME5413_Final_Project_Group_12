@@ -10,6 +10,9 @@
   <!-- Launch the AMCL Localizer -->
   <include file="$(find me5413_world)/navigation/launch/include/amcl.launch" />
 
+  <!-- Launch robot localization -->
+  <include file="$(find me5413_world)/navigation/launch/include/robot_localization.launch" />
+
   <!-- Launch Move Base -->
   <include file="$(find me5413_world)/navigation/launch/include/move_base.launch" />
 
