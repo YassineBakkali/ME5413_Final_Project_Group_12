@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization" respawn="true">
+  
+    <rosparam command="load" file="$(find me5413_world)/navigation/params/robot_localization.yaml" />
+    
+  </node>
+  
+</launch>
