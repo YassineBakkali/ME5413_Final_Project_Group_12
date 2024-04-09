@@ -54,7 +54,7 @@ def save_map(map_2d, file_path):
 
 if __name__ == '__main__':
     # Load the point cloud
-    pcl_cloud = load_point_cloud('BEST_MAP_EVER.pcd')
+    pcl_cloud = load_point_cloud('./3D_map.pcd')
 
     # Segment and remove the ground
     ground_inliers = segment_ground(pcl_cloud)

@@ -1,7 +1,7 @@
 import open3d as o3d
 
 # Load the PCD file
-pcd = o3d.io.read_point_cloud("BEST_MAP_EVER.pcd")
+pcd = o3d.io.read_point_cloud("3D_map.pcd")
 
 # Create a visualizer object
 vis = o3d.visualization.Visualizer()
